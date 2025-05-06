@@ -1,0 +1,386 @@
+.main-container{
+    font-family:Oswald;
+}
+
+
+.top-nav{
+    font-weight: 400;
+    display: flex;
+    font-size: x-large;
+    align-items: center;
+    position: relative;
+    margin-top: 30px;
+}
+
+.top-nav p{
+    display: flex;
+    align-items: center;
+    color: rgb(235, 17, 53);
+    margin-left: 10px;
+}
+.link{
+    list-style : none;
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    font-size: x-large;
+}
+
+
+@media (max-width: 700px){
+    .link{
+        align-self: flex-end;
+    }
+}
+@media (min-width: 700px){
+    .link{
+        font-size: large;
+    }
+}
+
+span{
+    color: red;
+}
+.mid-nav{
+    font-size: 2rem;
+    display: flex;
+    padding: 2rem;
+    margin-top: 50px;
+}
+ .delivery{
+    box-sizing: border-box;
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    margin-top: 70px ;
+}
+.chicken1{
+    text-align: center;
+    padding-left: 300px;
+    font-size: x-large;
+}
+.images{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    /* position: absolute;
+    transform: translate(-50%,-50%);
+    animation: slide 5s infinite; */
+  
+}
+/* @keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    } */
+/* } */
+
+#chicken{
+    height: 300px;
+    width: 300px;
+}
+#dairy{
+    height: 300px;
+    width: 300px;
+}
+#medcine{
+    height: 300px;
+    width: 300px;
+}
+#kirana{
+    height: 300px;
+    width: 300px;
+}
+#stationery{
+    height: 300px;
+    width: 300px;
+}
+#fruits{
+    height: 300px;
+    width: 300px;
+}
+#vegetables{
+    height: 300px;
+    width: 300px;
+}
+.down{
+    position: relative;
+    top: 10px;
+}
+.left{
+    background-color: rgb(235, 17, 53);
+    width: 50%;
+}
+.text-left{
+    padding: 20px;
+}
+.works{
+    color: white;
+}
+.Place{
+    color: white;
+}
+.thousand{
+    color: white;
+}
+.left p{
+    text-align: end;
+    font-size: x-large;
+}
+.mobile{
+    text-align: center;
+}
+.Place{
+    padding: 20px;
+    margin-top: 30px;
+}
+.dispatched{
+    color: white;
+}
+.cartoon{
+    text-align: center;
+    margin-top: 60px;
+}
+.second-class{
+    display: flex;
+    width: 50;
+    gap: 5px;
+}
+
+.right-class{
+    background-color: rgb(235, 17, 53);
+    width: 50%;
+   justify-content: center;
+}
+.mobile2{
+    margin-top: 50px;
+    justify-content: center;
+    text-align: center;
+}
+.Alert{
+font-size: x-large;
+margin-left: 30px;
+}
+.Whatsapp{
+    color: white;
+   
+}
+.dispatch{
+    text-align: center;
+}
+.delivery-text{
+font-size: x-large;
+margin-left: 30px;
+}
+.free{
+    background-color: black;
+
+}
+ .main-bottom{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+ }
+.special{
+    color: red;
+}
+.free h2{
+    margin-left: 50px;
+    font-size: xx-large;
+}
+.scooty h4{
+    color: white;
+    font-size: x-large;  
+}
+.basket img{
+    height: 200px;
+    width: 200px;
+}
+.basket{
+    margin-top: 20px;
+}
+
+.basket h4{
+    color: white;
+    font-size: x-large;
+}
+.Serving{
+text-align: center;
+font-size: x-large;
+
+}
+.location{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 1400px;
+   justify-content: center;
+   margin-top: 100px;
+}
+.location p{
+    font-size: x-large;
+}
+.map{
+    height: 292px;
+    width: 100%;
+    background-color: rgb(201, 195, 195);
+    margin-top: 200px;
+    
+}
+.map img{
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    margin-left: 200px;
+    align-items: center;
+}
+
+.ranges{
+    font-size: 50px;
+    text-align: center;
+}
+.main-ranges img{
+    height: 200px;
+    width: 200px;
+    gap: 100px;
+}
+.first-list{
+    display: flex;
+    gap: 170px;
+    justify-content: center;
+}
+.first-list p{
+    font-size: x-large;
+    text-align: center;
+}
+.second-list{
+    display: flex;
+    justify-content: center;
+    gap: 170px;
+}
+.second-list p{
+    font-size: x-large;
+    justify-content: center;
+    text-align: center;
+}
+
+.waiting{
+    justify-content: center;
+  text-align: center;
+  margin-top: 250px;
+
+}
+.waiting p{
+    font-size: 40px;
+}
+.waiting h1{
+    font-size: 70px;
+}
+.mobiles {
+    background-color: black;
+    width: 100%;
+    height: 150px;
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+    gap: 450px;
+}
+
+.mobiles img {
+    position: relative;
+    height: 500px;
+    bottom: 150px;
+}
+.button{
+    color: white;
+    justify-content: center;
+    display: flex;
+    margin-top: 300px;
+}
+.button button{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 110px;
+    font-size: large;
+}
+.footerbig{
+    margin-top: 50px;
+    position:relative;
+    top: 25px;
+    
+}
+.footerbig h2{
+    position:absolute;
+color: white;
+bottom:-30px;
+font-size: 70px;
+padding-left: 50px;
+}
+.company{
+    background-color: rgb(235, 17, 53);
+    height: 530px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.text{
+    list-style: none;
+    margin-top: 150px;
+    font-size: larger;
+    color: white;
+
+}
+.last-img{
+    margin-top: 130px;
+}
+li{
+    list-style: none;
+    margin-top: 10px;
+}
+.text h3{
+    font-size:x-large;
+}
+
+.logos{
+    background-color:rgb(235, 17, 53) ;
+    text-align: center; 
+}
+.logos img{
+    height: 40px;
+    width: 40px;
+}
+.logos p{
+    padding-top: 50px;
+    color: white;
+}
+
+
+
+
